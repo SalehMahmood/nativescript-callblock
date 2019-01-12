@@ -1,5 +1,11 @@
 import { Common } from './callblock.common';
 
-export class Callblock extends Common {
+declare class com {
+    public static salehmahmood;
+}
 
+export class Callblock extends Common {
+    public getCallBlockerObject() {
+        return com.salehmahmood.nativescriptcallblock.CallBlocker.shared;
+    }
 }

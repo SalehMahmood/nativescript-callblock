@@ -2,8 +2,16 @@ import { Observable } from 'tns-core-modules/data/observable';
 import * as app from 'tns-core-modules/application';
 import * as dialogs from 'tns-core-modules/ui/dialogs';
 
+declare class com {
+  public static salehmahmood;
+}
+
 export class Common extends Observable {
   public message: string;
+
+  public getCallBlockerObject() {
+    return com.salehmahmood.nativescriptcallblock.CallBlocker.shared;
+  }
 
   constructor() {
     super();
