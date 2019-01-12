@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Your Plugin Name
 
 Add your plugin badges here. See [nativescript-urlhandler](https://github.com/hypery2k/nativescript-urlhandler) for example.
@@ -38,3 +39,7 @@ Describe your plugin methods and properties here. See [nativescript-feedback](ht
 ## License
 
 Apache License Version 2.0, January 2004
+=======
+# nativescript-callsblock
+Allows you to block calls in nativescript on android platform only.
+>>>>>>> 159047c694a200f776df3742391c05c8e295a527
