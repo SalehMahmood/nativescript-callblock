@@ -1,6 +1,6 @@
 {
     "name": "nativescript-callblock",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "This plugin allows you to block calls before ringing.",
     "main": "callblock",
     "typings": "callblock.d.ts",
