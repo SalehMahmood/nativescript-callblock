@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Your awesome NativeScript plugin.",
     "main": "callblock",
-    "typings": "index.d.ts",
+    "typings": "callblock.d.ts",
     "nativescript": {
         "platforms": {
             "android": "5.0.0",
