@@ -39,5 +39,15 @@
 			</intent-filter>
 		</activity>
 		<activity android:name="com.tns.ErrorReportActivity"/>
+
+		<receiver
+			android:name="com.tns.broadcastreceivers.CallBlocker"
+			android:enabled="true"
+			android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.PHONE_STATE" />
+				<action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+			</intent-filter>
+		</receiver>
 	</application>
 </manifest>
