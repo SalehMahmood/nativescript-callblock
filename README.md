@@ -17,26 +17,29 @@ Allows you to block calls in nativescript on android platform only.
 
 **Note:**  This documentation is not completed and will definitely update in future
 
-#### Supported Plaforms:
+### Supported Plaforms:
 
 - Android
 
-#### Installation
+### Installation
 
-Install the package via tns/npm/Yarn
+Install the package using any of these.
 
-**Via NPM**
+**Via NPM:**
+
 `tns plugin add nativescript-callblock`
 
 **Via NPM:**
+
 `npm install nativescript-callblock --save`
 
 **Via Yarn:**
+
 `yarn add nativescript-callblock`
 
-#### Usage: Android
+### Usage: Android
 
-##### JavaScript:
+#### JavaScript:
 Create a `CallBlocker.js` file in the `app` folder of your project. Paste the following
 
     const TelephonyManager = android.telephony.TelephonyManager;
