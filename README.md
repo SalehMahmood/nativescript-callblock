@@ -39,6 +39,11 @@ Install the package using any of these.
 
 ### Usage: Android
 
+#### Permissions:
+
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
 #### JavaScript:
 Create a `CallBlocker.js` file in the `app` folder of your project. Paste the following
 
