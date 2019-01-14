@@ -11,15 +11,15 @@ matrix:
         - WebPack="Android"
       jdk: oraclejdk8
       before_install: nvm install 8
-      script: cd demo && npm run build.plugin && npm i && tns build android --bundle --env.uglify --env.snapshot
+      script: cd demo && npm run build.plugin && yarn install && tns build android --bundle --env.uglify --env.snapshot
     - language: android
       env: 
         - BuildAndroid="28"
       os: linux
       jdk: oraclejdk8
-      before_install: nvm install stable
+      before_install: nvm install 8
       script:
-        - cd src && npm i && npm run tsc && cd ../demo && tns build android
+        - cd src && npm i && npm run tsc && cd ../demo && npm run yarn && tns build android
     - os: linux
       language: android
       dist: precise
@@ -48,5 +48,6 @@ before_install:
 
 install:
     - echo no | npm install -g nativescript
+    - echo no | npm install -g yarn
     - tns usage-reporting disable
     - tns error-reporting disable
