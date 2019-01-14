@@ -25,6 +25,7 @@
   },
   "scripts": {
     "build.plugin": "cd ../src && npm run build",
+    "yarn": "yarn install",
     "ci.tslint": "npm i && tslint --config '../tslint.json' 'app/**/*.ts' --exclude '**/node_modules/**'"
   }
 }
